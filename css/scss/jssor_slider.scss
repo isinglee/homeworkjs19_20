@@ -1,0 +1,20 @@
+
+.jssorb01 {
+    position: absolute;
+    
+    div, div:hover, .av {
+        position: absolute;
+        /* size of bullet elment */
+        width: 9px;
+        height: 9px;
+        overflow: hidden;
+        cursor: pointer;
+        border: #fff 3px solid;
+    }
+    div {
+        background-color: #fff;
+    }
+    .av {
+        background-color: #001d1d;
+    }
+}
